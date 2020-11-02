@@ -1,0 +1,107 @@
+body {
+  background-color: #F4F5F7;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-navbar {
+  background-color: white;
+}
+
+.logo {
+  color: #45C2BA;
+}
+
+.navbar-links p {
+  color: grey;
+}
+
+header .row {
+  height: 55vh;
+  background-image: url("../assets/header-mobile.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 100% 100%;
+}
+
+.text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h1 {
+  font-size: 2.2rem;
+}
+
+header p {
+  font-size: 0.86rem;
+}
+
+.header-icon {
+  width: 6vw;
+  height: 6vw;
+  margin-right: 1vw;
+  color: grey;
+}
+
+.header-icon:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.text-container h1 {
+  width: 75%;
+}
+
+.text-container p {
+  width: 75%;
+}
+
+@media screen and (min-width: 480px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+  header p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-icon {
+    width: 4vw;
+    height: 4vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header .row {
+    height: 55vh;
+    background-image: url("../assets/header.png");
+  }
+  .header-icon {
+    width: 2.7vw;
+    height: 2.7vw;
+  }
+  header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+  }
+  header p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .text-container h1 {
+    width: 60%;
+  }
+  .text-container p {
+    width: 60%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
