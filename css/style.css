@@ -33,11 +33,11 @@ header .row {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header h1 {
@@ -57,7 +57,7 @@ header p {
 
 .header-icon:hover {
   -webkit-transform: scale(0.9);
-  transform: scale(0.9);
+          transform: scale(0.9);
 }
 
 .text-container h1 {
@@ -72,7 +72,7 @@ header p {
   height: 640px;
   background-color: white;
   -webkit-box-shadow: 0 0 5px #b2b2ab;
-  box-shadow: 0 0 5px #b2b2ab;
+          box-shadow: 0 0 5px #b2b2ab;
 }
 
 .projects-card h5 {
@@ -98,26 +98,36 @@ header p {
   color: white;
 }
 
+.desc-container {
+  background-color: white;
+}
+
 .img-container {
-  height: 18rem;
-  width: 18rem;
+  height: 15rem;
+  width: 15rem;
   background-image: url("../assets/prof-pic.jpeg");
   background-repeat: no-repeat;
   background-position-y: top;
   background-size: cover;
-  border: 5px solid white;
+  border: 3px solid #ffde59;
 }
 
 .img-column {
-  background-color: #45c2ba;
-  color: white;
+  color: #63635e;
+  background-color: white;
+  border: 2px solid #45c2ba;
+}
+
+.about-me {
+  border: 1px solid #b2b2ab;
+  -webkit-box-shadow: 0 0 5px #b2b2ab;
+          box-shadow: 0 0 5px #b2b2ab;
 }
 
 @media screen and (min-width: 480px) {
   header h1 {
     font-size: 2.5rem;
   }
-
   header p {
     font-size: 1rem;
   }
@@ -128,7 +138,6 @@ header p {
     width: 4vw;
     height: 4vw;
   }
-
   .projects-card {
     height: 710px;
   }
@@ -145,27 +154,23 @@ header p {
     height: 55vh;
     background-image: url("../assets/header.png");
   }
-
   .header-icon {
     width: 2.7vw;
     height: 2.7vw;
   }
-
   header h1 {
     font-size: 2.9rem;
     margin-bottom: 1.5rem;
   }
-
   header p {
     font-size: 1.3rem;
     margin-bottom: 1.5rem;
   }
-
   .text-container h1 {
     width: 60%;
   }
-
   .text-container p {
     width: 60%;
   }
 }
+/*# sourceMappingURL=style.css.map */
