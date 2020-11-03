@@ -2,6 +2,7 @@ $turquoise-color: #45C2BA;
 $yellow-color: #FFDE59;
 $body-color: #F4F5F7;
 $font-family: 'Poppins', sans-serif;
+$brown-color: #d1d1c6;
 
 body {
     background-color: $body-color;
@@ -54,12 +55,25 @@ header p {
     transform: scale(0.9)
 }
 
-.text-container h1{
+.text-container h1 {
     width: 75%;
 }
 
-.text-container p{
+.text-container p {
     width: 75%;
+}
+
+.projects-card {
+    background-color: white;
+    box-shadow: 0 0 5px $brown-color;
+}
+
+.projects-card h5 {
+    font-size: 1.3rem;
+}
+
+.projects-card ul {
+    color: $brown-color;
 }
 
 @media screen and (min-width: 480px) {
@@ -92,20 +106,20 @@ header p {
     }
 
     header h1 {
-        font-size: 2.8rem;
+        font-size: 2.9rem;
         margin-bottom: 1.5rem;
     }
     
     header p {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         margin-bottom: 1.5rem;
     }
 
-    .text-container h1{
+    .text-container h1 {
         width: 60%;
     }
     
-    .text-container p{
+    .text-container p {
         width: 60%;
     }
 
