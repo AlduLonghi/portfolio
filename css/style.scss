@@ -1,155 +1,152 @@
-$turquoise-color: #45C2BA;
-$yellow-color: #FFDE59;
-$body-color: #F4F5F7;
+$turquoise-color: #45c2ba;
+$yellow-color: #ffde59;
+$body-color: #f4f5f7;
 $font-family: 'Poppins', sans-serif;
 $brown-color: #b2b2ab;
 
 body {
-    background-color: $body-color;
-    font-family: $font-family;
+  background-color: $body-color;
+  font-family: $font-family;
 }
 
 .w-85 {
-    width: 85%;
+  width: 85%;
 }
 
 .main-navbar {
-    background-color: white;
+  background-color: white;
 }
 
 .logo {
-    color: $turquoise-color;
+  color: $turquoise-color;
 }
 
 .navbar-links p {
-    color: grey;
+  color: grey;
 }
 
 header .row {
-    height: 55vh;
-    background-image: url("../assets/header-mobile.png");
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-size: 100% 100%;
+  height: 55vh;
+  background-image: url("../assets/header-mobile.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 100% 100%;
 }
 
 .text-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header h1 {
-    font-size: 2.2rem;
+  font-size: 2.2rem;
 }
 
 header p {
-    font-size: 0.86rem;
+  font-size: 0.86rem;
 }
 
 .header-icon {
-    width: 6vw;
-    height: 6vw;
-    margin-right: 1vw;
-    color: grey;
+  width: 6vw;
+  height: 6vw;
+  margin-right: 1vw;
+  color: grey;
 }
 
 .header-icon:hover {
-    transform: scale(0.9)
+  transform: scale(0.9);
 }
 
 .text-container h1 {
-    width: 75%;
+  width: 75%;
 }
 
 .text-container p {
-    width: 75%;
+  width: 75%;
 }
 
 .projects-card {
-    height: 640px;
-    background-color: white;
-    box-shadow: 0 0 5px $brown-color;
+  height: 640px;
+  background-color: white;
+  box-shadow: 0 0 5px $brown-color;
 }
 
 .projects-card h5 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .projects-card ul {
-    color: $brown-color;
+  color: $brown-color;
 }
 
 .tags {
-    background-color: $turquoise-color;
-    color: white;
+  background-color: $turquoise-color;
+  color: white;
 }
 
 .btn-1 {
-    border: 2px solid $yellow-color;
-    color: $turquoise-color;
-}
+  border: 2px solid $yellow-color;
+  color: $turquoise-color;
 
 .btn-2 {
-    background-color: $turquoise-color;
-    color: white;
+  background-color: $turquoise-color;
+  color: white;
 }
 
 @media screen and (min-width: 480px) {
-    header h1 {
-        font-size: 2.5rem;
-    }
-    
-    header p {
-        font-size: 1rem;
-    }
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .header-icon {
-        width: 4vw;
-        height: 4vw;
-    }
+  .header-icon {
+    width: 4vw;
+    height: 4vw;
+  }
 
-    .projects-card {
-        height: 710px;
-    }
+  .projects-card {
+    height: 710px;
+  }
 }
 
 @media screen and (min-width: 992px) {
-    .projects-card {
-        height: 640px;
-    }
+  .projects-card {
+    height: 640px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    header .row {
-        height: 55vh;
-        background-image: url("../assets/header.png");
-        
-    }
+  header .row {
+    height: 55vh;
+    background-image: url("../assets/header.png");
+  }
 
-    .header-icon {
-        width: 2.7vw;
-        height: 2.7vw;
-    }
+  .header-icon {
+    width: 2.7vw;
+    height: 2.7vw;
+  }
 
-    header h1 {
-        font-size: 2.9rem;
-        margin-bottom: 1.5rem;
-    }
-    
-    header p {
-        font-size: 1.3rem;
-        margin-bottom: 1.5rem;
-    }
+  header h1 {
+    font-size: 2.9rem;
+    margin-bottom: 1.5rem;
+  }
 
-    .text-container h1 {
-        width: 60%;
-    }
-    
-    .text-container p {
-        width: 60%;
-    }
+  header p {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .text-container h1 {
+    width: 60%;
+  }
+
+  .text-container p {
+    width: 60%;
+  }
 }
