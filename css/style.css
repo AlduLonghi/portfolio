@@ -49,8 +49,8 @@ header p {
 }
 
 .header-icon {
-  width: 6vw;
-  height: 6vw;
+  width: 8vw;
+  height: 8vw;
   margin-right: 1vw;
   color: grey;
 }
@@ -118,6 +118,10 @@ header p {
   border: 2px solid #45c2ba;
 }
 
+.icons-container {
+  width: 35%;
+}
+
 .about-me {
   border: 1px solid #b2b2ab;
   -webkit-box-shadow: 0 0 5px #b2b2ab;
@@ -130,6 +134,10 @@ header p {
   }
   header p {
     font-size: 1rem;
+  }
+  .header-icon {
+    width: 6vw;
+    height: 6vw;
   }
 }
 
