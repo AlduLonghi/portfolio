@@ -88,8 +88,28 @@ header p {
 .btn-1 {
   border: 2px solid $yellow-color;
   color: $turquoise-color;
+}
 
 .btn-2 {
+  background-color: $turquoise-color;
+  color: white;
+}
+
+.about-me {
+
+}
+
+.img-container {
+  height: 18rem;
+  width: 18rem;
+  background-image: url("../assets/prof-pic.jpeg");
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-size: cover;
+  border: 5px solid white;
+}
+
+.img-column {
   background-color: $turquoise-color;
   color: white;
 }
