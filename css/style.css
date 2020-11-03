@@ -37,11 +37,11 @@ header .row {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header h1 {
@@ -57,7 +57,7 @@ header h1 {
 
 .header-icon:hover {
   -webkit-transform: scale(0.9);
-  transform: scale(0.9);
+          transform: scale(0.9);
 }
 
 .text-container h1 {
@@ -72,7 +72,7 @@ header h1 {
   height: 640px;
   background-color: white;
   -webkit-box-shadow: 0 0 5px #b2b2ab;
-  box-shadow: 0 0 5px #b2b2ab;
+          box-shadow: 0 0 5px #b2b2ab;
 }
 
 .projects-card h5 {
@@ -98,6 +98,11 @@ header h1 {
   color: white;
 }
 
+.btn-3 {
+  background-color: #ffde59;
+  color: #63635e;
+}
+
 .img-container {
   height: 15rem;
   width: 15rem;
@@ -114,8 +119,8 @@ header h1 {
 
 .icons-container {
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: start;
+      -ms-flex-pack: start;
+          justify-content: start;
 }
 
 .lang-pic {
@@ -139,7 +144,7 @@ header h1 {
 
 .about-me {
   -webkit-box-shadow: 0 0 5px #b2b2ab;
-  box-shadow: 0 0 5px #b2b2ab;
+          box-shadow: 0 0 5px #b2b2ab;
   background-color: white;
 }
 
@@ -169,11 +174,9 @@ header h1 {
   header h1 {
     font-size: 2.5rem;
   }
-
   header p {
     font-size: 1rem;
   }
-
   .header-icon {
     width: 6vw;
     height: 6vw;
@@ -185,11 +188,9 @@ header h1 {
     width: 4vw;
     height: 4vw;
   }
-
   .projects-card {
     height: 710px;
   }
-
   .contact-container {
     width: 65%;
   }
@@ -199,7 +200,6 @@ header h1 {
   .projects-card {
     height: 640px;
   }
-
   .contact-container {
     width: 50%;
   }
@@ -210,32 +210,27 @@ header h1 {
     height: 55vh;
     background-image: url("../assets/header.png");
   }
-
   .header-icon {
     width: 2vw;
     height: 2vw;
   }
-
   header h1 {
     font-size: 2.9rem;
     margin-bottom: 1.5rem;
   }
-
   header p {
     font-size: 1.3rem;
     margin-bottom: 1.5rem;
   }
-
   .text-container h1 {
     width: 60%;
   }
-
   .text-container p {
     width: 60%;
   }
-
   .lang-row {
     padding-left: 0;
     padding-right: 0;
   }
 }
+/*# sourceMappingURL=style.css.map */

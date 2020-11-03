@@ -16,9 +16,9 @@
          <p class="my-0 font-weight-bold logo">Aldana</p>
         </li>
         <li class="d-flex align-items-center navbar-links">
-            <p class="my-0 mr-3">Portfolio</p>
-            <p class="my-0 mr-3">About me</p>
-            <p class="my-0 ">Contact</p>
+            <a href="#projects"><p class="my-0 mr-3">Portfolio</p></a>
+            <a href="#about-me"><p class="my-0 mr-3">About me</p></a>
+            <a href="#contact-me"><p class="my-0">Contact</p></a>
         </li>
     </ul>
 </nav>
@@ -40,7 +40,7 @@
       </div>
   </header>
 <main class="mt-2">
-    <section class="container">
+    <section id="projects" class="container">
         <div class="row">
             <div class="col-12 col-lg-6 mt-4">
                 <div class="card projects-card">
@@ -139,7 +139,7 @@
             </div>
         </div>
     </section>
-    <section class="container-fluid container-md mt-5 px-4">
+    <section id="about-me" class="container-fluid container-md mt-5 px-4">
         <div class="row about-me rounded pb-2">
             <div class="img-column col-12 col-xl-3 py-3 d-flex flex-column justify-content-center pb-4">
                 <div class="img-container mx-auto rounded-circle">
@@ -201,7 +201,7 @@
               </div>
         </div>
     </section>
-    <section class="container-fluid container-md contact px-4 mt-5">
+    <section id="contact-me" class="container-fluid container-md contact px-4 mt-5">
         <div class="row flex-column justify-content-center">
             <div class="contact-container mx-auto">
                 <h2 class="font-weight-bold text-center">Contact me</h2>
@@ -224,6 +224,7 @@
                       placeholder="Message" 
                       class="form-control mt-4" 
                       rows="5"></textarea>
+                      <a href="#" class="btn btn-3 font-weight-bold d-block w-25 mt-4 mx-auto">Submit</a>
                 </form>
             </div>
         </div> 
