@@ -2,7 +2,7 @@ $turquoise-color: #45C2BA;
 $yellow-color: #FFDE59;
 $body-color: #F4F5F7;
 $font-family: 'Poppins', sans-serif;
-$brown-color: #d1d1c6;
+$brown-color: #b2b2ab;
 
 body {
     background-color: $body-color;
@@ -77,6 +77,16 @@ header p {
 }
 
 .tags {
+    background-color: $turquoise-color;
+    color: white;
+}
+
+.btn-1 {
+    border: 2px solid $yellow-color;
+    color: $turquoise-color;
+}
+
+.btn-2 {
     background-color: $turquoise-color;
     color: white;
 }

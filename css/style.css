@@ -66,8 +66,8 @@ header p {
 
 .projects-card {
   background-color: white;
-  -webkit-box-shadow: 0 0 5px #d1d1c6;
-          box-shadow: 0 0 5px #d1d1c6;
+  -webkit-box-shadow: 0 0 5px #b2b2ab;
+          box-shadow: 0 0 5px #b2b2ab;
 }
 
 .projects-card h5 {
@@ -75,10 +75,20 @@ header p {
 }
 
 .projects-card ul {
-  color: #d1d1c6;
+  color: #b2b2ab;
 }
 
 .tags {
+  background-color: #45C2BA;
+  color: white;
+}
+
+.btn-1 {
+  border: 2px solid #FFDE59;
+  color: #45C2BA;
+}
+
+.btn-2 {
   background-color: #45C2BA;
   color: white;
 }
