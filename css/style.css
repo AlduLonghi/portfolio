@@ -71,11 +71,16 @@ header p {
 }
 
 .projects-card h5 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .projects-card ul {
   color: #d1d1c6;
+}
+
+.tags {
+  background-color: #45C2BA;
+  color: white;
 }
 
 @media screen and (min-width: 480px) {

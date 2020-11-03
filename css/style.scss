@@ -69,11 +69,16 @@ header p {
 }
 
 .projects-card h5 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .projects-card ul {
     color: $brown-color;
+}
+
+.tags {
+    background-color: $turquoise-color;
+    color: white;
 }
 
 @media screen and (min-width: 480px) {
