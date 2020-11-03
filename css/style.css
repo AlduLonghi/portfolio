@@ -3,6 +3,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.w-85 {
+  width: 85%;
+}
+
 .main-navbar {
   background-color: white;
 }
@@ -65,6 +69,7 @@ header p {
 }
 
 .projects-card {
+  height: 640px;
   background-color: white;
   -webkit-box-shadow: 0 0 5px #b2b2ab;
           box-shadow: 0 0 5px #b2b2ab;
@@ -106,6 +111,15 @@ header p {
   .header-icon {
     width: 4vw;
     height: 4vw;
+  }
+  .projects-card {
+    height: 710px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .projects-card {
+    height: 640px;
   }
 }
 
