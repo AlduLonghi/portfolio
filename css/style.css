@@ -15,6 +15,10 @@ body {
   color: #45c2ba;
 }
 
+header p {
+  font-size: 0.86rem;
+}
+
 .navbar-links p {
   color: grey;
 }
@@ -33,19 +37,15 @@ header .row {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 header h1 {
   font-size: 2.2rem;
-}
-
-header p {
-  font-size: 0.86rem;
 }
 
 .header-icon {
@@ -57,7 +57,7 @@ header p {
 
 .header-icon:hover {
   -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 .text-container h1 {
@@ -72,7 +72,7 @@ header p {
   height: 640px;
   background-color: white;
   -webkit-box-shadow: 0 0 5px #b2b2ab;
-          box-shadow: 0 0 5px #b2b2ab;
+  box-shadow: 0 0 5px #b2b2ab;
 }
 
 .projects-card h5 {
@@ -98,10 +98,6 @@ header p {
   color: white;
 }
 
-.lang-row {
-  background-color: white;
-}
-
 .img-container {
   height: 15rem;
   width: 15rem;
@@ -118,8 +114,8 @@ header p {
 
 .icons-container {
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
 }
 
 .lang-pic {
@@ -143,7 +139,7 @@ header p {
 
 .about-me {
   -webkit-box-shadow: 0 0 5px #b2b2ab;
-          box-shadow: 0 0 5px #b2b2ab;
+  box-shadow: 0 0 5px #b2b2ab;
   background-color: white;
 }
 
@@ -152,13 +148,32 @@ header p {
   font-size: 1.2rem;
 }
 
+.contact .row {
+  height: 65vh;
+  background-image: url("../assets/form-img.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 100% 100%;
+}
+
+.contact h2 {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.contact-container {
+  width: 75%;
+}
+
 @media screen and (min-width: 480px) {
   header h1 {
     font-size: 2.5rem;
   }
+
   header p {
     font-size: 1rem;
   }
+
   .header-icon {
     width: 6vw;
     height: 6vw;
@@ -170,14 +185,23 @@ header p {
     width: 4vw;
     height: 4vw;
   }
+
   .projects-card {
     height: 710px;
+  }
+
+  .contact-container {
+    width: 65%;
   }
 }
 
 @media screen and (min-width: 992px) {
   .projects-card {
     height: 640px;
+  }
+
+  .contact-container {
+    width: 50%;
   }
 }
 
@@ -186,27 +210,32 @@ header p {
     height: 55vh;
     background-image: url("../assets/header.png");
   }
+
   .header-icon {
     width: 2vw;
     height: 2vw;
   }
+
   header h1 {
     font-size: 2.9rem;
     margin-bottom: 1.5rem;
   }
+
   header p {
     font-size: 1.3rem;
     margin-bottom: 1.5rem;
   }
+
   .text-container h1 {
     width: 60%;
   }
+
   .text-container p {
     width: 60%;
   }
+
   .lang-row {
     padding-left: 0;
     padding-right: 0;
   }
 }
-/*# sourceMappingURL=style.css.map */

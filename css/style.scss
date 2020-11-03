@@ -22,6 +22,10 @@ body {
   color: $turquoise-color;
 }
 
+header p {
+  font-size: 0.86rem;
+}
+
 .navbar-links p {
   color: grey;
 }
@@ -42,10 +46,6 @@ header .row {
 
 header h1 {
   font-size: 2.2rem;
-}
-
-header p {
-  font-size: 0.86rem;
 }
 
 .header-icon {
@@ -96,10 +96,6 @@ header p {
   color: white;
 }
 
-.lang-row {
-    background-color: white;
-}
-
 .img-container {
   height: 15rem;
   width: 15rem;
@@ -115,36 +111,53 @@ header p {
 }
 
 .icons-container {
-    justify-content: start;
+  justify-content: start;
 }
 
 .lang-pic {
-    width: 4rem;
-    height: 4rem;
+  width: 4rem;
+  height: 4rem;
 }
 
 .lang-pic-ruby {
-    width: 4rem;
-    height: 2.6rem;
+  width: 4rem;
+  height: 2.6rem;
 }
 
 .lang-row {
-    padding-left: 4rem;
-    padding-right: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .lang-container {
-    background-color: whitesmoke;
+  background-color: whitesmoke;
 }
 
 .about-me {
-    box-shadow: 0 0 5px $brown-color;
-    background-color: white;
+  box-shadow: 0 0 5px $brown-color;
+  background-color: white;
 }
 
 .connect {
-    color: $turquoise-color;
-    font-size: 1.2rem;
+  color: $turquoise-color;
+  font-size: 1.2rem;
+}
+
+.contact .row {
+  height: 65vh;
+  background-image: url("../assets/form-img.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 100% 100%;
+}
+
+.contact h2 {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.contact-container {
+  width: 75%;
 }
 
 @media screen and (min-width: 480px) {
@@ -157,8 +170,8 @@ header p {
   }
 
   .header-icon {
-      width: 6vw;
-      height: 6vw;
+    width: 6vw;
+    height: 6vw;
   }
 }
 
@@ -171,6 +184,10 @@ header p {
   .projects-card {
     height: 710px;
   }
+
+  .contact-container {
+    width: 65%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -178,6 +195,9 @@ header p {
     height: 640px;
   }
 
+  .contact-container {
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -212,6 +232,5 @@ header p {
   .lang-row {
     padding-left: 0;
     padding-right: 0;
-}
-
+  }
 }
