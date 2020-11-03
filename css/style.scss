@@ -96,7 +96,7 @@ header p {
   color: white;
 }
 
-.desc-container {
+.lang-row {
     background-color: white;
 }
 
@@ -107,22 +107,33 @@ header p {
   background-repeat: no-repeat;
   background-position-y: top;
   background-size: cover;
-  border: 3px solid $yellow-color;
 }
 
 .img-column {
   color: $dark-grey;
-  background-color: white;
-  border: 2px solid $turquoise-color;
 }
 
 .icons-container {
     width: 35%;
+    justify-content: space-around;
 }
 
+.lang-pic {
+    width: 4rem;
+    height: 4rem;
+}
+
+.lang-pic-ruby {
+    width: 4rem;
+    height: 2.6rem;
+}
+
+.lang-container {
+    background-color: whitesmoke;
+}
 .about-me {
-    border: 1px solid $brown-color;
     box-shadow: 0 0 5px $brown-color;
+    background-color: white;
 }
 
 @media screen and (min-width: 480px) {
@@ -155,6 +166,10 @@ header p {
   .projects-card {
     height: 640px;
   }
+
+  .icons-container {
+      width: 20%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -164,8 +179,8 @@ header p {
   }
 
   .header-icon {
-    width: 2.7vw;
-    height: 2.7vw;
+    width: 2vw;
+    height: 2vw;
   }
 
   header h1 {

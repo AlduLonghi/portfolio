@@ -98,7 +98,7 @@ header p {
   color: white;
 }
 
-.desc-container {
+.lang-row {
   background-color: white;
 }
 
@@ -109,23 +109,36 @@ header p {
   background-repeat: no-repeat;
   background-position-y: top;
   background-size: cover;
-  border: 3px solid #ffde59;
 }
 
 .img-column {
   color: #63635e;
-  background-color: white;
-  border: 2px solid #45c2ba;
 }
 
 .icons-container {
   width: 35%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.lang-pic {
+  width: 4rem;
+  height: 4rem;
+}
+
+.lang-pic-ruby {
+  width: 4rem;
+  height: 2.6rem;
+}
+
+.lang-container {
+  background-color: whitesmoke;
 }
 
 .about-me {
-  border: 1px solid #b2b2ab;
   -webkit-box-shadow: 0 0 5px #b2b2ab;
           box-shadow: 0 0 5px #b2b2ab;
+  background-color: white;
 }
 
 @media screen and (min-width: 480px) {
@@ -155,6 +168,9 @@ header p {
   .projects-card {
     height: 640px;
   }
+  .icons-container {
+    width: 20%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -163,8 +179,8 @@ header p {
     background-image: url("../assets/header.png");
   }
   .header-icon {
-    width: 2.7vw;
-    height: 2.7vw;
+    width: 2vw;
+    height: 2vw;
   }
   header h1 {
     font-size: 2.9rem;
