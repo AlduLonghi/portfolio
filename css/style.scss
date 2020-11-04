@@ -5,6 +5,12 @@ $font-family: 'Poppins', sans-serif;
 $brown-color: #b2b2ab;
 $dark-grey: #63635e;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: $body-color;
   font-family: $font-family;
