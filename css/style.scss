@@ -1,4 +1,4 @@
-$turquoise-color: #45c2ba;
+$turquoise-color: #10827a;
 $yellow-color: #ffde59;
 $body-color: #f4f5f7;
 $font-family: 'Poppins', sans-serif;
@@ -33,7 +33,7 @@ header p {
 }
 
 .navbar-links p {
-  color: grey;
+  color: $dark-grey;
 }
 
 header .row {
@@ -117,7 +117,6 @@ header h1 {
   border: 4px solid $yellow-color;
 }
 
-
 .img-column {
   color: $dark-grey;
 }
@@ -137,8 +136,10 @@ header h1 {
 }
 
 .lang-row {
-  padding-left: 4rem;
-  padding-right: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .lang-container {
@@ -244,5 +245,6 @@ header h1 {
   .lang-row {
     padding-left: 0;
     padding-right: 0;
+    padding-top: 3rem;
   }
 }

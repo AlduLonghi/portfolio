@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   background-color: #f4f5f7;
   font-family: "Poppins", sans-serif;
@@ -12,7 +19,7 @@ body {
 }
 
 .logo {
-  color: #45c2ba;
+  color: #10827a;
 }
 
 header p {
@@ -20,7 +27,7 @@ header p {
 }
 
 .navbar-links p {
-  color: grey;
+  color: #63635e;
 }
 
 header .row {
@@ -84,17 +91,17 @@ header h1 {
 }
 
 .tags {
-  background-color: #45c2ba;
+  background-color: #10827a;
   color: white;
 }
 
 .btn-1 {
   border: 2px solid #ffde59;
-  color: #45c2ba;
+  color: #10827a;
 }
 
 .btn-2 {
-  background-color: #45c2ba;
+  background-color: #10827a;
   color: white;
 }
 
@@ -134,8 +141,18 @@ header h1 {
 }
 
 .lang-row {
-  padding-left: 4rem;
-  padding-right: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .lang-container {
@@ -149,7 +166,7 @@ header h1 {
 }
 
 .connect {
-  color: #45c2ba;
+  color: #10827a;
   font-size: 1.2rem;
 }
 
@@ -231,6 +248,7 @@ header h1 {
   .lang-row {
     padding-left: 0;
     padding-right: 0;
+    padding-top: 3rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
