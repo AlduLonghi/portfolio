@@ -58,7 +58,6 @@ header h1 {
   width: 8vw;
   height: 8vw;
   margin-right: 1vw;
-  color: grey;
 }
 
 .header-icon:hover {
@@ -84,7 +83,7 @@ header h1 {
 }
 
 .projects-card ul {
-  color: $brown-color;
+  color: $dark-grey;
 }
 
 .tags {
@@ -171,6 +170,11 @@ header h1 {
 
 .contact-container {
   width: 75%;
+}
+
+.footer-cont {
+  background-color: $yellow-color;
+  height: 6vh;
 }
 
 @media screen and (min-width: 480px) {
