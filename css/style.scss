@@ -36,6 +36,10 @@ header p {
   color: $dark-grey;
 }
 
+nav {
+  width: 100%;
+}
+
 header .row {
   height: 55vh;
   background-image: url("../assets/header-mobile.png");
@@ -125,7 +129,6 @@ header h1 {
 }
 
 .lang-pic {
-  width: 4rem;
   height: 4rem;
 }
 
@@ -177,6 +180,12 @@ header h1 {
   height: 6vh;
 }
 
+.navbar-brand {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
 @media screen and (min-width: 480px) {
   header h1 {
     font-size: 2.5rem;
@@ -189,6 +198,18 @@ header h1 {
   .header-icon {
     width: 6vw;
     height: 6vw;
+  }
+
+  nav {
+    ul {
+      width: 75%;
+    }
+  }
+
+  .navbar-brand {
+    h2 {
+      font-size: 2rem;
+    }
   }
 }
 
