@@ -108,6 +108,7 @@ header h1 {
 .btn-3 {
     background-color: $yellow-color;
     color: $dark-grey;
+    width: 50%;
 }
 
 .img-container {
@@ -210,6 +211,10 @@ header h1 {
     h2 {
       font-size: 2rem;
     }
+  }
+
+  .btn-3 {
+    width: 25%;
   }
 }
 
